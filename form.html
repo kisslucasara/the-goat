@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <title>Climb central</title>
+    </head>
+    <body>
+        <header>
+            <h1>Climbing partner finder</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Back to main page</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <p>Do you want to climb with someone? We can help you find the perfect climbing partner for you!</p>
+            </section>
+            <section>
+                <form action="#" method="get">
+                    <p>Fill out the following form </p>
+                    <label>
+                        Name:
+                        <input type="text" name="lastname" required>
+                    </label>
+                    <br>
+                    <label>
+                        Email:
+                        <input type="email" name="email_address" required>
+                    </label>
+                    <br>
+                    <label>
+                        Phone number:
+                        <input type="phone_number" name="phone_number" required>
+                    </label>
+                    <br> 
+                    <label>
+                        Date picker:
+                        <input type="date" name="date_picker" required>
+                    </label>
+                    <br>
+                    <select name="climbing_style_dropdown">
+                        <option value="" disabled selected>Choose your climbing style</option>
+                        <option value="style_first">Rock climbing</option>
+                        <option value="style_second">Bouldering</option>
+                        <option value="style_third">Ice Climbing</option>
+                    </select>
+                    <br>
+                    <select name="climbing_difficulty_dropdown">
+                        <option value="" disabled selected>Choose your difficulty level</option>
+                        <option value="difficulty_first">Beginner</option>
+                        <option value="difficulty_second">Intermediate</option>
+                        <option value="difficulty_third">Expert</option>
+                    </select>
+                    <br>
+                    <select name="usual_availability">
+                        <option value="" disable selected>Choose your usual availability time</option>
+                        <option value="availability_first">Weekdays</option>
+                        <option value="availabiltiy_second">Weekends</option>
+                    </select>
+                    <br>
+                    <label>
+                        Location:
+                        <input tpye="location" name="location" required>
+                    </label>
+                    <br>
+                    <label>
+                        Additional information:
+                        <input type="comment" name="additional_information" required>
+                    </label>
+                    <br>
+                    <label>
+                        I agree to the terms and conditions!
+                        <input type="checkbox" name="terms" required>
+                    </label>
+                    <br>
+                    <input type="submit" value="Send form">
+
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Climb Central® - 2025. All rights reserved.</p>
+        </footer>
+    </body>
+
+</html>
